@@ -50,14 +50,14 @@
     },
     "branch": {
       "type": "string",
-      "defaultValue": "master",
+      "defaultValue": "main",
       "metadata": {
         "description": "The branch of the GitHub repository to use."
       }
     },
     "nodeJsVersion":{
       "type": "string",
-      "defaultValue": "8.9.4",
+      "defaultValue": "14.16.0",
       "metadata": {
         "description": "Nodejs version, make sure that the App Service supports the version you set here."
       }
